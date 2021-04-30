@@ -1,2 +1,4 @@
+import "./style.css";
+
 alert("hello world");
-alert("bye world");
+
