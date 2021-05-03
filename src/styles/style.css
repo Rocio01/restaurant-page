@@ -75,6 +75,28 @@ li {
   
 }
 
+.menuDiv {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.menuTitle{
+  color: black;
+  text-align: center;
+  padding: 1%;
+}
+.menuImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.menuImg {
+  width: 80%;
+  border: 10px solid rgb(202, 202, 202);
+}
 
 @media (max-width: 425px) {
   .brand-title {
