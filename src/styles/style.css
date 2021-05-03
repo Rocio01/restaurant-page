@@ -47,7 +47,7 @@ li {
   padding: 2%;
 }
 
-.contactSection {
+.contactSection, .aboutDiv {
   display: flex;
   justify-content: space-between;
   padding: 1%;
@@ -68,11 +68,11 @@ li {
   max-width: 90%;
 }
 
-.contactText {
+.contactText, .aboutText {
   display: flex;
   align-items: center;
   text-align: center;
-  
+  font-size: 1.5rem;
 }
 
 .menuDiv {
@@ -82,7 +82,7 @@ li {
   margin: 2rem;
 }
 
-.menuTitle{
+.menuTitle, .aboutTitle {
   color: black;
   text-align: center;
   padding: 1%;
