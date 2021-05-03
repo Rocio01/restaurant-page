@@ -6,7 +6,7 @@ const home = () => {
   textDiv.className = "textDiv";
 
   const heading = document.createElement("h1");
-  heading.innerHTML = "ARTESANAL BURGERS AND DELICIOUS FOOD DONE RIGHT."
+  heading.innerHTML = "HANDMADE BURGERS AND DELICIOUS FOOD DONE RIGHT."
 
   const paragraph = document.createElement("p");
   paragraph.innerHTML = "Join us for your next meal. We have a wide menu."

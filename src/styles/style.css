@@ -47,6 +47,34 @@ li {
   padding: 2%;
 }
 
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgDiv, .contactText {
+  padding: 2%;
+  margin: 1%;
+}
+
+.contactImg {
+  max-width: 90%;
+}
+
+.contactText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
 
 @media (max-width: 425px) {
   .brand-title {
@@ -61,7 +89,6 @@ li {
   }
   .navbar {
     flex-direction: column;
-    /* align-items: flex-start; */
     text-align: center;
   }
    ul {
@@ -72,6 +99,10 @@ li {
 
    ul li {
     text-align: center;
+  }
+
+  .contactSection {
+    flex-direction: column;
   }
 
 }
