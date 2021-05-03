@@ -3,7 +3,7 @@ const navigation = () => {
   const nav = document.createElement("nav");
   nav.className = "navbar";
 
-  const restaurantTitle = document.createElement("h5");
+  const restaurantTitle = document.createElement("h2");
   restaurantTitle.className = "brand-title";
   restaurantTitle.innerHTML = "COMELONES";
   nav.appendChild(restaurantTitle);

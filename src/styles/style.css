@@ -1,0 +1,77 @@
+.principalSection{
+background: center / cover no-repeat url('../images/burger.jpg');   
+background-color: black;
+height: 500px;
+}
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+h1, p {
+  color: aliceblue;
+  
+}
+
+.textDiv {
+  width: 40%;
+  padding: 3%;
+  margin: 5%;
+  position: absolute;
+  right: 0
+  
+}
+
+.brand-title {
+  margin-left: 2%;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  width:  50%;
+}
+
+li {
+  list-style: none;
+  padding: 2%;
+}
+
+
+@media (max-width: 425px) {
+  .brand-title {
+    margin: 2%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 0.6rem;
+  }
+  .navbar {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    text-align: center;
+  }
+   ul {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+
+   ul li {
+    text-align: center;
+  }
+
+}
