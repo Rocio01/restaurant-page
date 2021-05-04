@@ -2,10 +2,9 @@
 
 # Restaurant page
 
-> A simple restaurant homepage rendered  dynamically by DOM manipulation, modularized code using webpack.
+> A simple restaurant homepage rendered dynamically by DOM manipulation, and the use of modularized code using webpack.
 
-![screenshot](./src/images/screenshot.png)
-
+![screenshot](./src/images/screenshot.PNG)
 
 ## Built With
 
@@ -16,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rocio01.github.io/Library/)
+[Live Demo Link](https://rocio01.github.io/restaurant-page/)
 
 ## Getting Started
 
