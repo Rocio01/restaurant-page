@@ -1,5 +1,7 @@
+import changeSection from "./changeSection";
+
 const navigation = () => {
-  const navList = ["HOME", "MENU", "CONTACT", "ABOUT US"];
+  const navList = ["HOME", "MENU", "CONTACT", "ABOUT"];
   const nav = document.createElement("nav");
   nav.className = "navbar";
 
@@ -14,13 +16,18 @@ const navigation = () => {
   navList.forEach((navName)=> {
     const li = document.createElement("li");
     li.innerHTML = navName;
+    li.className = `${navName}`;
+    li.addEventListener("click", () => {
+      changeSection(navName);
+    });
     ul.appendChild(li);
+    nav.appendChild(ul); 
   });
 
-  nav.appendChild(ul);
+  
 
   return nav;
 
-}
+};
 
 export {navigation as default};

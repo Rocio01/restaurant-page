@@ -2,7 +2,7 @@ import imagen from "./images/7.jpg";
 
 const about = () => {
   const aboutSection = document.createElement("section");
-  aboutSection.className = "aboutSection";
+  aboutSection.className = "aboutSection principalContent";
  
   const aboutTitle = document.createElement("h1");
   aboutTitle.className = "aboutTitle";

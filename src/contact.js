@@ -2,7 +2,7 @@ import imagen from './images/8.jpg';
 
 const contact = () => {
   const contactSection = document.createElement("section");
-  contactSection.className = "contactSection";
+  contactSection.className = "contactSection principalContent";
 
   const imgDiv = document.createElement("div");
   imgDiv.className = "imgDiv";

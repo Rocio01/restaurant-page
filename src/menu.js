@@ -8,7 +8,7 @@ import img6 from './images/5.jpg';
 const menu = () => {
   const imgList = [img1, img2, img3, img4, img5, img6];
   const menuSection = document.createElement("section");
-  menuSection.className = "menuSection";
+  menuSection.className = "menuSection principalContent";
   const menuDiv = document.createElement("div");
   menuDiv.className = "menuDiv";
   const menuTitle = document.createElement("h1");

@@ -1,6 +1,6 @@
 const home = () => {
   const principalSection = document.createElement("section");
-  principalSection.className = "principalSection";
+  principalSection.className = "principalSection principalContent";
 
   const textDiv = document.createElement("div");
   textDiv.className = "textDiv";
