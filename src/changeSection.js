@@ -1,29 +1,26 @@
-import home from "./home";
-import menu from "./menu";
-import contact from "./contact";
-import about from "./about";
+import home from './home';
+import menu from './menu';
+import contact from './contact';
+import about from './about';
 
 const changeSection = (section) => {
-
-  const oldContent = document.querySelector(".principalContent");
-  const content = document.querySelector("#content");
+  const oldContent = document.querySelector('.principalContent');
+  const content = document.querySelector('#content');
 
   const newContent = (() => {
-    if (section === "MENU") {
-        return menu();
-      }
-    else if (section ==="CONTACT"){
-        return contact();
+    if (section === 'MENU') {
+      return menu();
     }
-    else if (section ==="ABOUT"){
-        return about();
+    if (section === 'CONTACT') {
+      return contact();
     }
-    else {
-      return home();
+    if (section === 'ABOUT') {
+      return about();
     }
-        
-  })();  
+
+    return home();
+  })();
   content.replaceChild(newContent, oldContent);
 };
 
-export {changeSection as default};
+export { changeSection as default };

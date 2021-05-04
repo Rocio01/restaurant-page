@@ -1,8 +1,14 @@
+body {
+  font-family: Inter, Roboto, sans-serif;
+  color: #3e3c3c;
+}
 .principalSection{
 background: center / cover no-repeat url('../images/burger.jpg');   
-background-color: black;
+background-color: #3e3c3c;
 height: 500px;
 }
+
+
 h1 {
   font-size: 2rem;
 }
@@ -25,8 +31,8 @@ h1, p {
 }
 
 .brand-title {
-  margin-left: 2%;
   font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .navbar {
@@ -34,17 +40,29 @@ h1, p {
   position: relative;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(238, 238, 238);
+  height: fit-content;
+  padding: 0 4rem;
 }
 
 .nav-ul {
   display: flex;
   justify-content: space-between;
   width:  50%;
+ 
 }
 
 li {
   list-style: none;
   padding: 2%;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+li:hover {
+  background-color: #3e3c3c;
+  color: aliceblue;
+  cursor: pointer;
 }
 
 .contactSection, .aboutDiv {
@@ -64,8 +82,9 @@ li {
   margin: 1%;
 }
 
-.contactImg {
-  max-width: 90%;
+.contactImg, .imgAbout {
+  max-width: 80%;
+  padding: 10%;
 }
 
 .contactText, .aboutText {
@@ -83,7 +102,7 @@ li {
 }
 
 .menuTitle, .aboutTitle {
-  color: black;
+  color: #3e3c3c;
   text-align: center;
   padding: 1%;
 }
@@ -123,8 +142,15 @@ li {
     text-align: center;
   }
 
-  .contactSection {
+  .contactSection, .aboutDiv {
     flex-direction: column;
+  }
+
+  .menuDiv {
+    display: grid;
+    grid-template-columns: 90%;
+    margin: 0;
+
   }
 
 }
