@@ -25,7 +25,9 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone this repository using the link above (click on the 'code' button)
 - Open a terminal and `cd` to the cloned repository
-- Open a live server in your preferred browser
+- run `npm install`
+- run`npm run start` to open a live server in your preferred browser
+
 
 ### Usage
 
