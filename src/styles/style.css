@@ -1,0 +1,163 @@
+body {
+  font-family: Inter, Roboto, sans-serif;
+  color: #3e3c3c;
+}
+
+.principalSection {
+  background: center / cover no-repeat url('../images/burger.jpg');
+  background-color: #3e3c3c;
+  height: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1,
+p {
+  color: aliceblue;
+}
+
+.textDiv {
+  width: 40%;
+  padding: 3%;
+  margin: 5%;
+  position: absolute;
+  right: 0;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  padding: 0 4rem;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+li:hover {
+  background-color: #3e3c3c;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.contactSection,
+.aboutDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgDiv,
+.contactText {
+  padding: 2%;
+  margin: 1%;
+}
+
+.contactImg,
+.imgAbout {
+  max-width: 80%;
+  padding: 10%;
+}
+
+.contactText,
+.aboutText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.menuDiv {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.menuTitle,
+.aboutTitle {
+  color: #3e3c3c;
+  text-align: center;
+  padding: 1%;
+}
+
+.menuImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.menuImg {
+  width: 80%;
+  border: 10px solid rgb(202, 202, 202);
+}
+
+@media (max-width: 425px) {
+  .brand-title {
+    margin: 2%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.6rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  ul li {
+    text-align: center;
+  }
+
+  .contactSection,
+  .aboutDiv {
+    flex-direction: column;
+  }
+
+  .menuDiv {
+    display: grid;
+    grid-template-columns: 90%;
+    margin: 0;
+  }
+}
